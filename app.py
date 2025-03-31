@@ -13,7 +13,7 @@ prompt=ChatPromptTemplate.from_messages(
         ("user","Question:{question}")
     ]
 )
-st.title('Langchain Demo With OPENAI API')
+st.title('AI Chatbot')
 input_text=st.text_input("Search the topic u want")
 
 # openAI LLm
