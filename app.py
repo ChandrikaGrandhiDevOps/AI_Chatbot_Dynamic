@@ -6,10 +6,10 @@ import streamlit as st
 import os
 #from dotenv import load_dotenv
 
-os.environ["OPENAI_API_KEY"]="open_ai"
+os.environ["OPENAI_API_KEY"]="OPENAPI_KEY"
 ## Langmith tracking
-os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_API_KEY"]="lang_chain"
+#os.environ["LANGCHAIN_TRACING_V2"]="true"
+os.environ["LANGCHAIN_API_KEY"]="LANG_CHAIN"
 
 ## Prompt Template
 
